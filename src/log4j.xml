@@ -16,8 +16,8 @@
    <!-- A time/date based rolling appender -->
    <appender name="FILE" class="org.apache.log4j.DailyRollingFileAppender">
       <errorHandler class="org.apache.log4j.helpers.OnlyOnceErrorHandler"/>
-      <param name="File" value="D:/logs/context_timeline.log"/>
-      <!-- <param name="File" value="/home/hofuqi/logs/context_timeline.log"/> -->
+      <param name="File" value="D:/logs/context_easyenglish.log"/>
+      <!-- <param name="File" value="/home/hofuqi/logs/context_easyenglish.log"/> -->
       <param name="encoding" value="UTF-8" />
       <param name="Append" value="true"/>
       <param name="Threshold" value="ERROR"/>
